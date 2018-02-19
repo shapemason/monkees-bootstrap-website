@@ -10,7 +10,7 @@
     <title>The Monkees</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
     <!-- Custom styles for this template -->
     <link href="style.css" rel="stylesheet">
@@ -19,29 +19,29 @@
   <body>
 
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-      <a class="navbar-brand" href="#">The Monkees</a>
+      <a id="navbar-brand-custom" class="navbar-brand" href="#">The Monkees</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
+          <li class="nav-item active nav-item-custom">
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item">
+                      <li class="nav-item nav-item-custom">
             <a class="nav-link" href="#">News</a>
           </li>
-                      <li class="nav-item">
+                      <li class="nav-item nav-item-custom">
             <a class="nav-link" href="#">Events</a>
           </li>
-                      <li class="nav-item">
+                      <li class="nav-item nav-item-custom">
             <a class="nav-link" href="#">Discography</a>
           </li>
-                      <li class="nav-item">
+                      <li class="nav-item nav-item-custom">
             <a class="nav-link" href="#">The Gang</a>
           </li>
-                              <li class="nav-item">
+                      <li class="nav-item nav-item-custom">
             <a class="nav-link" href="#">Contact Us</a>
           </li>
             
@@ -57,28 +57,36 @@
         
       </div>
     </nav>
-
-    <main role="main" class="container">
-
-      <div class="initial-styling">
-        <h1>Image here</h1>
+      
+      <section id="navmonk-spacing"></section> 
+      
+    <section class="jumbo-image">
+    <p class="lead">an image goes here.</p>
+      </section>  
+      
+    <section class="latest-news">
+      <h1>Latest News</h1>
         <p class="lead">Other Text here.</p>
-                <h1>Latest News here</h1>
+      </section> 
+      
+    <section class="latest-events">
+      <h1>Latest Events</h1>
         <p class="lead">Other Text here.</p>
-                <h1>Latest Events here</h1>
+      </section> 
+      
+    <section class="most-popular">
+      <h1>Popular</h1>
         <p class="lead">Other Text here.</p>
-                <h1>Music here</h1>
-        <p class="lead">Other Text here.</p>
-                <h1>Heading</h1>
-        <p class="lead">Other Text here.</p>
-          
-      </div>
-
-    </main><!-- /.container -->
+      </section>  
+      
+      
+     
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
 </html>

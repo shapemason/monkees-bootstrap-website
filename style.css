@@ -1,6 +1,46 @@
 body {
-  padding-top: 15vh;
 }
 .initial-styling {
   text-align: center;
+    height: 40vh;
+    background-color: aqua;
 }
+#navmonk {
+    background-color: pink;
+    height: 10vh;
+}
+
+/*----------------------------------better positioning this way with navout of doc flow*/
+#navmonk-spacing {
+    background-color:#010203;
+    height: 10vh;
+}
+
+
+
+
+
+ .jumbo-image {
+    background-image: url(/assests/images/monkees-jumbo.jpg);
+    background-color: #010203;
+    background-repeat: no-repeat;
+    background-position: center top -10vh;
+    height: 40vh;
+}
+      
+.latest-news{
+    background-color: mintcream;
+    height: 40vh;
+}
+      
+.latest-events{
+    background-color:brown;
+    height: 30vh;
+}
+
+      
+.most-popular{
+    background-color:yellow;
+    height: 30vh;
+}
+      
