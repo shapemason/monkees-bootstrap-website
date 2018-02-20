@@ -1,46 +1,59 @@
 body {
+    padding: 0;
 }
 .initial-styling {
   text-align: center;
     height: 40vh;
     background-color: aqua;
 }
-#navmonk {
-    background-color: pink;
-    height: 10vh;
+#navbar-brand-custom {
+padding: 0vw 2vw 0vw 2vw;
 }
 
 /*----------------------------------better positioning this way with navout of doc flow*/
 #navmonk-spacing {
-    background-color:#010203;
+    background-color:#19011e;
     height: 10vh;
 }
 
 
+.nav-item-custom{
+padding: 0vw 1vw 0vw 1vw;
+}
+
+.navbar-custom{
+    background-color: #245581;
+/*Do not put absoloute height here*/
+    min-height: 10vh;
+
+}
 
 
 
  .jumbo-image {
-    background-image: url(/assests/images/monkees-jumbo.jpg);
+    background-image: url(/assests/images/monkees-jumbo.webp);
     background-color: #010203;
     background-repeat: no-repeat;
-    background-position: center top -10vh;
-    height: 40vh;
+    background-position: right top -5vh;
+    height: 50vh;
 }
       
 .latest-news{
-    background-color: mintcream;
+    background: linear-gradient(#1b1a3c, #203258); 
     height: 40vh;
+    color: azure
 }
       
 .latest-events{
-    background-color:brown;
-    height: 30vh;
+    background-color: #031c2f;
+    height: 40vh;
+    color: mintcream
 }
 
       
 .most-popular{
-    background-color:yellow;
+    background-color:darkslategrey;
+        color: mintcream;
     height: 30vh;
 }
       
