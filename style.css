@@ -56,4 +56,21 @@ padding: 0vw 1vw 0vw 1vw;
         color: mintcream;
     height: 30vh;
 }
-      
+
+/*----------------------------------footer*/
+
+.footer-custom{
+min-height: 10vh;
+}
+.site-links{    background-color:green;
+}
+.logo-here {    background-color:yellow;
+}
+.social-here{    background-color:orange;
+}
+.copyright-full{    background-color:hotpink;
+}
+
+
+
+
