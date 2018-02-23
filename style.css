@@ -61,12 +61,18 @@ padding: 0vw 1vw 0vw 1vw;
 
 .footer-custom{
 min-height: 20vh;
+    background-color:#1d2120;
 
 }
-.site-links{    background-color:green;
-    min-height: 20vh;
+.site-links{    padding-top: 30px;
 
 }
+
+.site-links ul li a{color: whitesmoke;
+    text-decoration: none;
+        padding: 30px 1px;
+}
+
 .logo-here {    
     min-height: 20vh;
 background-color:#1d2120;
@@ -74,18 +80,19 @@ background-color:#1d2120;
     background-position: center;
 background-repeat: no-repeat;
 background-size: 40%;
-}.social-here{    
+}.social-here{   
+            padding: 30px 1px;
+
     min-height: 20vh;
-background-color:#5a5c51
+background-color:#1d2120
 ;
-    font-size: 3rem;
+    color: white;
 
     
 
 }
 .social-here ul li a{color: whitesmoke;
     text-decoration: none;
-        padding: 30px 1px;
         font-size: 2rem;
 
 
