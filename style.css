@@ -60,17 +60,51 @@ padding: 0vw 1vw 0vw 1vw;
 /*----------------------------------footer*/
 
 .footer-custom{
-min-height: 10vh;
+min-height: 20vh;
+
 }
 .site-links{    background-color:green;
+    min-height: 20vh;
+
 }
-.logo-here {    background-color:yellow;
+.logo-here {    
+    min-height: 20vh;
+background-color:#1d2120;
+    background-image: url(assests/images/footer-monkees.svg);
+    background-position: center;
+background-repeat: no-repeat;
+background-size: 40%;
+}.social-here{    
+    min-height: 20vh;
+background-color:#5a5c51
+;
+    font-size: 3rem;
+
+    
+
 }
-.social-here{    background-color:orange;
-}
-.copyright-full{    background-color:hotpink;
+.social-here ul li a{color: whitesmoke;
+    text-decoration: none;
+        padding: 30px 1px;
+        font-size: 2rem;
+
+
 }
 
 
 
+.copyright-full{    background-color:black;
+    color: darkgray;
+    padding-top: 15px;
+    font-size: smaller;
+}
 
+
+.ulcustom{
+}
+
+.subscribe-custom{}
+
+#email-subscribe-id {
+font-weight: bolder;
+}
