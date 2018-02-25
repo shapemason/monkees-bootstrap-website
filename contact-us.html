@@ -32,22 +32,22 @@
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item nav-item-custom">
-                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="/index.html">Home</a>
                 </li>
                 <li class="nav-item nav-item-custom">
-                    <a class="nav-link" href="#">News</a>
+                    <a class="nav-link" href="/News.html">News</a>
                 </li>
                 <li class="nav-item nav-item-custom">
-                    <a class="nav-link" href="#">Events</a>
+                    <a class="nav-link" href="/Events.html">Events</a>
                 </li>
                 <li class="nav-item nav-item-custom">
-                    <a class="nav-link" href="#">Discography</a>
+                    <a class="nav-link" href="/Discography.html">Discography</a>
                 </li>
                 <li class="nav-item nav-item-custom">
-                    <a class="nav-link" href="#">The Gang</a>
+                    <a class="nav-link" href="/band-members.html">The Gang</a>
                 </li>
                 <li class="nav-item active nav-item-custom">
-                    <a class="nav-link" href="#">Contact Us<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="/contact-us.html">Contact Us<span class="sr-only">(current)</span></a>
                 </li>
 
                 <li class="nav-item dropdown nav-item-custom">
@@ -70,85 +70,69 @@
         <fieldset>
             <!-- Form Name -->
             <legend>Contact Us</legend>
+                <div class="row">
+
             <!-- First Name-->
-            <div class="form-group">
-                <label class="col-lg-4 form-control-label" for="first-name">First Name</label>
-                <div class="col-lg-4">
+            <div class="form-group col-md-6">
+                <label class="form-control-label" for="first-name">First Name</label>
+                <div>
                     <input id="first-name" name="first-name" type="text" placeholder="First"
                     class="form-control input-md" required>
                 </div>
-            </div>
-            <!-- Last Name-->
-            <div class="form-group">
-                <label class="col-lg-4 form-control-label" for="last-name">Last Name</label>
-                <div class="col-lg-4">
+                 <label class="form-control-label" for="last-name">Last Name</label>
+                <div>
                     <input id="last-name" name="last-name" type="text" placeholder="Last"
                     class="form-control input-md" required>
                 </div>
-            </div>
+         
             <!-- email-->
-            <div class="form-group">
-                <label class="col-lg-4 form-control-label" for="email-id">email address</label>
-                <div class="col-lg-4">
+                <label class="form-control-label" for="email-id">Email address</label>
+                <div>
                     <input id="email-id" name="email-id" type="text" placeholder="name@example.com"
                     class="form-control input-md" required>
                 </div>
             </div>
-            <!-- enquiry type -->
-            <div class="form-group">
-                <label class="col-lg-4 form-control-label" for="enquirey-type-id">Enquiry type</label>
-                <div class="col-lg-4">
-                    <select id="enquirey-type-id" name="enquirey-type-id" class="form-control"
-                    multiple="multiple">
-                        <option value="1">Performance Booking</option>
-                        <option value="2">Media Appearance request</option>
-                        <option value="3">Other</option>
-                    </select>
-                </div>
-            </div>
-            <!-- Multiple Checkboxes -->
-            <div class="form-group">
-                <label class="col-lg-4 form-control-label" for="enquiry-type-checkboxes">Enquiry Type</label>
-                <div class="col-lg-4">
-                    <div class="form-check">
+            
+            <!-- Enquiry Checkboxes -->
+            <div class="form-group col-md-6">
+                <label class="form-control-label" for="enquiry-type-checkboxes">Enquiry Type</label>
+                <div>
+                    <div class="form-check form-check-inline">
                         <label for="enquiry-type-checkboxes-0">
                             <input type="checkbox" name="enquiry-type-checkboxes" id="enquiry-type-checkboxes-0"
-                            value="1">Event Booking</label>
+                            value="1"> Event Booking</label>
                     </div>
-                    <div class="form-check">
+                    <div class="form-check form-check-inline">
                         <label for="enquiry-type-checkboxes-1">
                             <input type="checkbox" name="enquiry-type-checkboxes" id="enquiry-type-checkboxes-1"
-                            value="2">Media enquirey</label>
+                            value="2"> Media enquirey</label>
                     </div>
-                    <div class="form-check">
+                    <div class="form-check form-check-inline">
                         <label for="enquiry-type-checkboxes-2">
                             <input type="checkbox" name="enquiry-type-checkboxes" id="enquiry-type-checkboxes-2"
-                            value="e">Other</label>
+                            value="e"> Other</label>
                     </div>
                 </div>
-            </div>
             <!-- Subject-->
-            <div class="form-group">
-                <label class="col-lg-4 form-control-label" for="subject-id">Subject</label>
-                <div class="col-lg-5">
+        
+                <label class="form-control-label" for="subject-id">Subject</label>
                     <input id="subject-id" name="subject-id" type="text" placeholder="" class="form-control input-md"
                     required>
-                </div>
-            </div>
-            <!-- Message -->
-            <div class="form-group">
-                <label class="col-lg-4 form-control-label" for="message-id">Message</label>
-                <div class="col-lg-4">
-                    <textarea class="form-control" id="message-id" name="message-id">Type your message here...</textarea>
-                </div>
+                 
             </div>
             <!-- Submit -->
-            <div class="form-group">
-                <label class="col-lg-4 form-control-label" for="submit-id"></label>
-                <div class="col-lg-4">
+            <div class="container-fluid form-group mx-auto">
+                <label class="form-control-label" for="submit-id"></label>
+                <div>
+                          <!-- Message -->
+
+                <label class="form-control-label" for="message-id">Message</label>
+                    <textarea class="form-control" id="message-id" name="message-id">Type your message here...</textarea>
                     <button id="submit-id" name="submit-id" class="btn btn-secondary">Submit</button>
                 </div>
             </div>
+            </div>
+
         </fieldset>
     </form>
 </div>
