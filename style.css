@@ -1,117 +1,143 @@
-body {
+body {/*------------------------
+-webkit-font-smoothing: antialiased; for dark parts later possibly-----*/
+    
     padding: 0;
 }
+
 .initial-styling {
-  text-align: center;
+    text-align: center;
     height: 40vh;
     background-color: aqua;
 }
+
 #navbar-brand-custom {
-padding: 0vw 2vw 0vw 2vw;
+    padding: 0vw 2vw 0vw 2vw;
 }
 
 /*----------------------------------better positioning this way with navout of doc flow*/
+
 #navmonk-spacing {
-    background-color:#19011e;
+    background-color: #19011e;
     height: 10vh;
 }
 
 
-.nav-item-custom{
-padding: 0vw 1vw 0vw 1vw;
+.nav-item-custom {
+    padding: 0vw 1vw 0vw 1vw;
 }
 
-.navbar-custom{
+.navbar-custom {
     background-color: #245581;
-/*Do not put absoloute height here*/
+    /*Do not put absoloute height here*/
     min-height: 10vh;
 
 }
 
 
 
- .jumbo-image {
+.jumbo-image {
     background-image: url(/assests/images/monkees-jumbo.webp);
     background-color: #010203;
     background-repeat: no-repeat;
     background-position: right top -5vh;
     height: 50vh;
 }
-      
-.latest-news{
-    background: linear-gradient(#1b1a3c, #203258); 
+
+.latest-news {
+    background: linear-gradient(#1b1a3c, #203258);
     height: 40vh;
     color: azure
 }
-      
-.latest-events{
+
+.latest-events {
     background-color: #031c2f;
     height: 40vh;
     color: mintcream
 }
 
-      
-.most-popular{
-    background-color:darkslategrey;
-        color: mintcream;
+
+.most-popular {
+    background-color: darkslategrey;
+    color: mintcream;
     height: 30vh;
 }
 
 /*----------------------------------footer*/
 
-.footer-custom{
-min-height: 20vh;
-    background-color:#1d2120;
+.footer-custom {
+    background-color: #1d2120;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
 
 }
-.site-links{    padding-top: 30px;
+
+.site-links {
+    font-size: 75%;
+    margin-bottom: -2%;
+
 
 }
 
-.site-links ul li a{color: whitesmoke;
+.site-links ul li a {
+    color: whitesmoke;
     text-decoration: none;
-        padding: 30px 1px;
+    
 }
 
-.logo-here {    
+.logo-here {
     min-height: 20vh;
-background-color:#1d2120;
     background-image: url(assests/images/footer-monkees.svg);
     background-position: center;
-background-repeat: no-repeat;
-background-size: 40%;
-}.social-here{   
-            padding: 30px 1px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 
+.social-here {
     min-height: 20vh;
-background-color:#1d2120
-;
     color: white;
 
-    
+
 
 }
-.social-here ul li a{color: whitesmoke;
+
+.social-here h6 {
+
+    font-weight: lighter;
+    padding-bottom: 3vh;
+
+}
+
+.social-here ul li a {
+    color: whitesmoke;
     text-decoration: none;
-        font-size: 2rem;
+    font-size: 3rem;
+    padding: 10%;
 
 
 }
 
 
 
-.copyright-full{    background-color:black;
+.copyright-full {
+    background: linear-gradient(darkslategrey, #1d2120);
     color: darkgray;
     padding-top: 15px;
     font-size: smaller;
+    font-weight: lighter;
+    opacity: 30%;
 }
 
 
-.ulcustom{
-}
+.ulcustom {}
 
-.subscribe-custom{}
+.subscribe-custom {
+    max-height: 35px;
+    /*outer*/
+}
 
 #email-subscribe-id {
-font-weight: bolder;
+    font-size: 90%;
+    min-width: 50%;
+    padding: 10px;
 }
