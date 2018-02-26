@@ -15,27 +15,43 @@
     <!-- Font awesome icons -->
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    
+
 
     
         <!-- Google fonts -->
 
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 
+    
 
     <!-- Custom styles for this template -->
     <link href="style.css" rel="stylesheet">
-    
+         <!-- on scroll animations -->
+
+<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
 <!-- Page specific styles -->
     <style>
         
-body {background-color: mintcream;
-        background-image: url(assests/images/footer-monkees.svg);
+.mintcream {background-color: mintcream;
     
 
+ }
         
         
+        .image-scale-50{      
+max-width: 90%;
+                display: block;
+    margin-left: auto;
+    margin-right: auto;
         }
         
+        .card-custom{
+            height: 120px;
+        }
+
+     
         
 </style>
     
@@ -43,7 +59,7 @@ body {background-color: mintcream;
     
 </head>
 
-<body>
+<body class="mintcream">
     <!-- changed bootrap to expand-lg for now-->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-custom">
         <a id="navbar-brand-custom" class="navbar-brand" href="#">The Monkees</a>
@@ -94,194 +110,214 @@ body {background-color: mintcream;
     </div>
 </div>
       
-      <section class="jumbotron row">
-        <div class="container col-md-6">
+      <section class="jumbotron row bg-d mintcream" data-aos="fade-up">
+        <div class="container-fluid col-md-6">
           <h1 class="jumbotron-heading ">Good Times!
 </h1>
           <p class="lead">Celebrating The Monkees 50th anniversary! The twelfth and arguably best studio album by The Monkees yet!.</p>
           <p>
-            <a href="#" class="btn btn-primary my-2">Buy on Amazon</a>
-            <a href="#" class="btn btn-secondary my-2">Read More</a>
+            <a href="#" class="btn btn-primary my-2 center-block">Buy on Amazon</a>
+            <a href="#" class="btn btn-secondary my-2 center-block">Read More</a>
           </p>
         </div>
-                  <div class="container col-md-6">
-          <div class="card">
-              <img class="card-img" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Good Times Album"></div>
+                  <div class="container-fluid image-scale-50 col-md-6">
+          <div class="card image-scale-50 ">
+              <img class="card-img" src="Discography/good-times/500.jpg" alt="Good Times Album"></div>
         </div>
       </section>
     
     <div class="py-5 bg-dark">
         <div class="container-fluid">
 
-          <div class="row">
-            <div class="col-md-3">
+          <div class="row" >
+            <div class="col-md-3 col-sm-6" data-aos="fade-up">
               <div class="card mb-3">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">The Monkees Greatest Hits</p>
+                <img class="card-img-top" src="/Discography/just-us/wikipedia.jpg" alt="Card image cap">
+                <div class="card-body card-custom">
+                  <p class="card-text">Justus</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline">View</button>
+                      <button type="button" class="btn btn-sm btn-outline"><a href="/Discography/headquarters/headquarters.html">View</a></button>
                     </div>
-                    <small>DATE DATE</small>
+                    <small>1996</small>
                   </div>
                 </div>
               </div>
             </div>
-               <div class="col-md-3">
+
+
+
+
+
+            <div class="col-md-3 col-sm-6" data-aos="fade-up">
               <div class="card mb-3">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">The Monkees Greatest Hits</p>
+                <img class="card-img-top" src="/Discography/pool-it/250.jpg" alt="Card image cap">
+                <div class="card-body card-custom">
+                  <p class="card-text">Pool It!</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline">View</button>
+                      <button type="button" class="btn btn-sm btn-outline"><a href="/Discography/headquarters/headquarters.html">View</a></button>
                     </div>
-                    <small>DATE DATE</small>
+                    <small>1987</small>
                   </div>
                 </div>
               </div>
             </div>
-               <div class="col-md-3">
+
+
+            <div class="col-md-3 col-sm-6" data-aos="fade-up">
               <div class="card mb-3">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">The Monkees Greatest Hits</p>
+                <img class="card-img-top" src="/Discography/changes/1.jpg" alt="Card image cap">
+                <div class="card-body card-custom">
+                  <p class="card-text">Changes</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline">View</button>
+                      <button type="button" class="btn btn-sm btn-outline"><a href="/Discography/headquarters/headquarters.html">View</a></button>
                     </div>
-                    <small>DATE DATE</small>
+                    <small>1970	</small>
                   </div>
                 </div>
               </div>
             </div>
-               <div class="col-md-3">
+
+            <div class="col-md-3 col-sm-6" data-aos="fade-up">
               <div class="card mb-3">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">The Monkees Greatest Hits</p>
+                <img class="card-img-top" src="Discography/monkees-present/250.jpg" alt="Card image cap">
+                <div class="card-body card-custom">
+                  <p class="card-text">The Monkees Present</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline">View</button>
+                      <button type="button" class="btn btn-sm btn-outline"><a href="/Discography/headquarters/headquarters.html">View</a></button>
                     </div>
-                    <small>DATE DATE</small>
+                    <small>1969</small>
                   </div>
                 </div>
               </div>
             </div>
-               <div class="col-md-3">
+
+            <div class="col-md-3 col-sm-6" data-aos="fade-up">
               <div class="card mb-3">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">The Monkees Greatest Hits</p>
+                <img class="card-img-top" src="/Discography/instant%20replay/250.jpg" alt="Card image cap">
+                <div class="card-body card-custom">
+                  <p class="card-text">Instant Replay</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline">View</button>
+                      <button type="button" class="btn btn-sm btn-outline"><a href="/Discography/headquarters/headquarters.html">View</a></button>
                     </div>
-                    <small>DATE DATE</small>
+                    <small>1969</small>
                   </div>
                 </div>
               </div>
             </div>
-               <div class="col-md-3">
+
+
+            <div class="col-md-3 col-sm-6" data-aos="fade-up">
               <div class="card mb-3">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">The Monkees Greatest Hits</p>
+                <img class="card-img-top" src="Discography/head/250.jpg" alt="Card image cap">
+                <div class="card-body card-custom">
+                  <p class="card-text">Head</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline">View</button>
+                      <button type="button" class="btn btn-sm btn-outline"><a href="/Discography/headquarters/headquarters.html">View</a></button>
                     </div>
-                    <small>DATE DATE</small>
+                    <small>1968</small>
                   </div>
                 </div>
               </div>
             </div>
-               <div class="col-md-3">
+
+
+            <div class="col-md-3 col-sm-6" data-aos="fade-up">
               <div class="card mb-3">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">The Monkees Greatest Hits</p>
+                <img class="card-img-top" src="Discography/the-birds/500.jpg" alt="Card image cap">
+                <div class="card-body card-custom">
+                  <p class="card-text">The Birds, The Bees & The Monkees</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline">View</button>
+                      <button type="button" class="btn btn-sm btn-outline"><a href="/Discography/headquarters/headquarters.html">View</a></button>
                     </div>
-                    <small>DATE DATE</small>
+                    <small>1968</small>
                   </div>
                 </div>
               </div>
             </div>
-               <div class="col-md-3">
+
+            <div class="col-md-3 col-sm-6" data-aos="fade-up">
               <div class="card mb-3">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">The Monkees Greatest Hits</p>
+                <img class="card-img-top" src="Discography/pisces/250.jpg" alt="Card image cap">
+                <div class="card-body card-custom">
+                  <p class="card-text">Pisces, Aquarius, Capricorn & Jones Ltd</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline">View</button>
+                      <button type="button" class="btn btn-sm btn-outline"><a href="/Discography/headquarters/headquarters.html">View</a></button>
                     </div>
-                    <small>DATE DATE</small>
+                    <small>1967</small>
                   </div>
                 </div>
               </div>
             </div>
-               <div class="col-md-3">
+
+            <div class="col-md-3 col-sm-6" data-aos="fade-up">
               <div class="card mb-3">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">The Monkees Greatest Hits</p>
+                <img class="card-img-top" src="Discography/headquarters/250.jpg" alt="Card image cap">
+                <div class="card-body card-custom">
+                  <p class="card-text">Headquarters</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline">View</button>
+                      <button type="button" class="btn btn-sm btn-outline"><a href="/Discography/headquarters/headquarters.html">View</a>
+                </button>
                     </div>
-                    <small>DATE DATE</small>
+                    <small>1967</small>
                   </div>
                 </div>
               </div>
             </div>
-               <div class="col-md-3">
+
+
+            <div class="col-md-3 col-sm-6" data-aos="fade-up">
               <div class="card mb-3">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">The Monkees Greatest Hits</p>
+                <img class="card-img-top" src="/Discography/more-of-the-monkees/250.jpg" alt="Card image cap">
+                <div class="card-body card-custom">
+                  <p class="card-text">More of the Monkees</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline">View</button>
+                      <button type="button" class="btn btn-sm btn-outline"><a href="/Discography/headquarters/headquarters.html">View</a></button>
                     </div>
-                    <small>DATE DATE</small>
+                    <small>1967</small>
                   </div>
                 </div>
               </div>
             </div>
-               <div class="col-md-3">
+
+            <div class="col-md-3 col-sm-6" data-aos="fade-up">
               <div class="card mb-3">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">The Monkees Greatest Hits</p>
+                <img class="card-img-top" src="/Discography/the-monkees/250.jpg" alt="Card image cap">
+                <div class="card-body card-custom">
+                  <p class="card-text">The Monkees</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline">View</button>
+                      <button type="button" class="btn btn-sm btn-outline"><a href="/Discography/headquarters/headquarters.html">View</a></button>
                     </div>
-                    <small>DATE DATE</small>
+                    <small>1966</small>
                   </div>
                 </div>
               </div>
             </div>
-               <div class="col-md-3">
+            <div class="col-md-3 col-sm-6" data-aos="fade-up">
               <div class="card mb-3">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">The Monkees Greatest Hits</p>
+                <img class="card-img-top" src="Discography/good-times/250.jpg" alt="Card image cap">
+                <div class="card-body card-custom">
+                  <p class="card-text">Good Times!</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline">View</button>
+                      <button type="button" class="btn btn-sm btn-outline"><a href="/Discography/headquarters/headquarters.html">View</a></button>
                     </div>
-                    <small>DATE DATE</small>
+                    <small>1969</small>
                   </div>
                 </div>
               </div>
             </div>
+
               
           </div>
         </div>
@@ -338,7 +374,15 @@ body {background-color: mintcream;
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.9.4/holder.js"></script>
-
+<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    
+    
+        <!-- initialise AOS js-->
+    <script>
+    AOS.init({
+  duration: 1200,
+})
+    </script>
 
 </body>
 
